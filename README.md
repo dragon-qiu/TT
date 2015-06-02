@@ -14,7 +14,21 @@ export PASSWORD=xxx
 ```
 
 ######3. Modify TT search result column:  
-[https://tt.amazon.com/search?search=search!&tags=aws-dev-support-cn](https://tt.amazon.com/search?search=search!&tags=aws-dev-support-cn)  
-Case ID, Requester Login, Description, Impact, Create Date, Last Modified Date, Status, Resolved Date
+  [https://tt.amazon.com/search?search=search!&tags=aws-dev-support-cn](https://tt.amazon.com/search?search=search!&tags=aws-dev-support-cn)  
 
-######4. Create Grasshopper job
+<table>
+  <tr>
+    <td>Case ID</td>
+    <td>Requester Login</td>
+    <td>Description</td>
+    <td>Impact</td>
+    <td>Create Date</td>
+    <td>Last Modified Date</td>
+    <td>Status</td>
+    <td>Resolved Date</td>
+  </tr>
+</table>
+
+######4. Create two Grasshopper job
+
+######5. Copy job ids to TTrun.sh
