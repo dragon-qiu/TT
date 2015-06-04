@@ -73,7 +73,7 @@ try:
 			cur.execute('insert into ' + DBTABLE + ' values(%s, %s, %s, %s, %s, %s, %s, %s, %s)', record)
 			i += 1
 			if DEBUG == True:
-				print '[OK] ' +  str(record) + ' has been inserted into database.'
+				print '[INFO] ' +  str(record) + ' has been inserted into database.'
 		else:
 			result = cur.fetchone()
 			modified = False
@@ -101,11 +101,11 @@ try:
 				i += 1
 				n_modified += 1
 				if DEBUG == True:
-					print '[OK] ' +  str(record) + ' has been updated into database.'
+					print '[INFO] ' +  str(record) + ' has been updated into database.'
 			else:
 				n_abort += 1
 				if DEBUG == True:
-					print '[WARNING] ' +  str(record) + ' exists in database.'
+					print '[DEBUG] ' +  str(record) + ' exists in database.'
 				pass
 		if i > 99 :
 				conn.commit()
