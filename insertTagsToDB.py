@@ -142,8 +142,8 @@ def main(argv):
 		else:
 			pass
 
-		print 'Total ' + str(sum) + ' new records have been inserted into database: ' + DBNAME + '.' + DBTABLE
-		print str(n_modified) + ' records\'s tags have been changed.'
+		print 'Total ' + str(sum) + ' records have been updated/inserted into database: ' + DBNAME + '.' + DBTABLE
+		print str(n_modified) + ' records\'s tags have been updated.'
 		print str(n_abort) + ' aborted.'
 		print 'Done!'
 

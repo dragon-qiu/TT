@@ -3,7 +3,7 @@
 
 import MySQLdb, sys
 
-FILENAME = '/home/local/ANT/xinjianl/tt/Cut_TT_by_Support.txt'
+FILENAME = 'Cut_TT_by_Support.txt'
 DBHOST = 'ud43d7ec95f7352d90876.ant.amazon.com'
 DBNAME = 'aws_support_remedy_bjs'
 DBTABLE = 'tickets'
@@ -119,8 +119,8 @@ try:
 	else:
 		pass
 
-	print 'Total ' + str(sum) + ' new records have been inserted into database: ' + DBNAME + '.' + DBTABLE
-	print str(n_modified) + ' records changed.'
+	print 'Total ' + str(sum) + ' records have been updated/inserted into database: ' + DBNAME + '.' + DBTABLE
+	print str(n_modified) + ' records updated.'
 	print str(n_abort) + ' aborted.'
 	print 'Done!'
 

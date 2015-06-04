@@ -3,7 +3,7 @@
 
 import MySQLdb, sys
 
-FILENAME = '/home/local/ANT/xinjianl/tt/TT_Correspondences_by_Supprt.txt'
+FILENAME = 'TT_Correspondences_by_Supprt.txt'
 DBHOST = 'ud43d7ec95f7352d90876.ant.amazon.com'
 DBNAME = 'aws_support_remedy_bjs'
 DBTABLE = 'correspondences'
