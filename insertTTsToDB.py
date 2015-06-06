@@ -92,10 +92,10 @@ try:
 				updatesql += ' where tt_id="' + record[0] +'"'
 				cur.execute(updatesql)
 				modified = True
-			if result[8] != record[8]:
-				updatesql = 'update ' + DBTABLE + ' set tt_tags="' + record[8] + '" where tt_id="' + record[0] +'"'
-				cur.execute(updatesql)
-				modified = True
+			# if result[8] != record[8]:
+			# 	updatesql = 'update ' + DBTABLE + ' set tt_tags="' + record[8] + '" where tt_id="' + record[0] +'"'
+			# 	cur.execute(updatesql)
+			# 	modified = True
 
 			if modified == True:
 				i += 1
