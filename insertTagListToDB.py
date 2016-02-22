@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Filename: insertTagsToTable.py
+# Filename: insertTagListToDB.py
 
 import MySQLdb, sys, getopt
 
@@ -17,7 +17,7 @@ PASSWORD = 'bjssupport'
 # +-------+----------+------+-----+---------+-------+
 
 def Usage():
-	print 'insertTagsToDB.py usage:'
+	print 'insertTagListToDB.py usage:'
 	print '-h, --help: 	print help message.'
 	print '--debug: 	Set debug print. Default False '
 	print '-o, --output: 	Write tags to file. Default tags.txt'

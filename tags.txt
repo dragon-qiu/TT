@@ -1,4 +1,5 @@
 aws-dev-support-cn
+aws-support-pek-icp-verification
 BJS blurb
 BJS Bug List
 BJS Concession
@@ -13,5 +14,10 @@ BJSRI_Cancellation
 BJS_SLI_CF
 BJS_SLI_G2
 China Support Offer Request
+China Support Offer Request - On-Site
+Global_Account
+ICP flag activation
+IEM Request
 Mandarin Assisstance
+One-Time Support
 RI Cancellation
